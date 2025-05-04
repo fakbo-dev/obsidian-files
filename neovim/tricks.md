@@ -1,4 +1,7 @@
 realtion: [[Neovim Commands]]
+
+## Yank lines
+`ygg` yank all for the bottom to the top
 ## highlight things
 `vi'` -> highlight the first occurence in a quote
 ## Select within () and {}
@@ -6,7 +9,7 @@ realtion: [[Neovim Commands]]
 `vi{ || vi(` -> larger
 `vib` -> for () shorter
 `viB` -> for {} shorter
-`cib` -> change all in () and enter in insert mode
+`cib` -> change all in () and enter in 1 mode
 `ciB` -> change all in {} and enter in insert mode
 ## Edit multiple lines at Once
 `C-v && I [text] ESC`
