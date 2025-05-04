@@ -9,10 +9,11 @@ Programming Fundamentals are the basic concepts and principles that form the fou
 
 Language syntax refers to the set of rules that dictate how programs written in a particular programming language must be structured. This can include rules for how to declare variables, how to call functions, how to structure control flow statements, and so on. Syntax varies significantly between different programming languages, so it is critical to grasp the specific syntax of the language you are using. It’s similar to grammar in human languages - putting words in the wrong order or including extraneous punctuation can make a sentence hard to understand, and the same applies to programming. Incorrect syntax leads to syntax errors which prevent your code from executing.
 
-### [[Control Structures]]
+### [[control structures]]
 
 Control structures are fundamental elements in most programming languages that facilitate the flow of control through a program. There are three main types of control structures: Sequential, Selection and Iteration.
 
 - **Sequential** control structures are the default mode where instructions happen one after another.
 - **Selection** control structures (often called "conditional" or "decision" structures) allow one set of instructions to be executed if a condition is true and another if it's false. These typically include `if...else` statements.
 - **Iteration** control structures (also known as _loops_) allow a block of code to be repeated multiple times. Common loop structures include `for`, `while`, and `do...while` loops. All these control structures play a vital role in shaping the program logic.
+

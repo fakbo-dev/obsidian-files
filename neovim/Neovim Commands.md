@@ -1,4 +1,4 @@
-c`:Tutor` -> Get in to the Tutorial for neovim
+`:Tutor` -> Get in to the Tutorial for neovim
 `:help` -> get  the all the commands
 
 ## Move the cursor
