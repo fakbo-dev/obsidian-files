@@ -1,9 +1,10 @@
-realtion: [[Neovim Commands]]
+relation: [[Neovim Commands]]
 
 ## Yank lines
-`ygg` yank all for the bottom to the top
+`ygg` yank all for the top to the bottom
+`yG` yank all for the bottom to the top
 ## highlight things
-`vi'` -> highlight the first occurence in a quote
+`vi'` -> highlight the first occurrence  in a quote
 ## Select within () and {}
 
 `vi{ || vi(` -> larger
