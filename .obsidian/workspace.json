@@ -167,16 +167,20 @@
   },
   "active": "677f283d62380887",
   "lastOpenFiles": [
-    "neovim/tricks.md",
+    "OOP.md",
+    "Computer science/Data Structured & Algorithm/Arrays.md",
+    "Computer science/Data Structured & Algorithm/Basic Data Structures.md",
+    "Computer science/Data Structured & Algorithm/Data Structures.md",
+    "Computer science/Data Structured & Algorithm/Data Structured & Algorithm.md",
+    "Computer science/Data Structured & Algorithm/language Syntax.md",
+    "Computer science/Data Structured & Algorithm/control structures.md",
+    "Computer science/Computer science.md",
     "shell/TMUX.md",
+    "neovim/tricks.md",
     "neovim/Snippets.md",
     "shell/Bash commands.md",
     "neovim/Neovim Commands.md",
     "Computer science/Github cheat sheet.md",
-    "Computer science/Data Structured & Algorithm/control structures.md",
-    "Computer science/Data Structured & Algorithm/Data Structured & Algorithm.md",
-    "Computer science/Data Structured & Algorithm/language Syntax.md",
-    "Computer science/Computer science.md",
     "Computer science/Data Structured & Algorithm",
     "shell/pwsh Commands.md",
     "shell",
@@ -195,8 +199,6 @@
     "neovim",
     "Computer science/Leetcode.md",
     "$.md",
-    "projects in develop/Todo App.md",
-    "projects in develop",
-    "Welcome.md"
+    "projects in develop"
   ]
 }
