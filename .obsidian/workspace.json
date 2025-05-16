@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shell/TMUX.md",
+                "file": "How to learn correctly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TMUX"
+              "title": "How to learn correctly"
             }
           }
         ]
@@ -165,9 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "677f283d62380887",
+  "active": "aeb34913f5f84e70",
   "lastOpenFiles": [
-    "OOP.md",
+    "shell/TMUX.md",
+    "How to learn correctly.md",
+    "Computer science/Data Structured & Algorithm/OOP.md",
     "Computer science/Data Structured & Algorithm/Arrays.md",
     "Computer science/Data Structured & Algorithm/Basic Data Structures.md",
     "Computer science/Data Structured & Algorithm/Data Structures.md",
@@ -175,7 +177,6 @@
     "Computer science/Data Structured & Algorithm/language Syntax.md",
     "Computer science/Data Structured & Algorithm/control structures.md",
     "Computer science/Computer science.md",
-    "shell/TMUX.md",
     "neovim/tricks.md",
     "neovim/Snippets.md",
     "shell/Bash commands.md",
@@ -198,7 +199,6 @@
     "operator.md",
     "neovim",
     "Computer science/Leetcode.md",
-    "$.md",
     "projects in develop"
   ]
 }
