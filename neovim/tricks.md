@@ -54,4 +54,12 @@ relation: [[Neovim Commands]]
 `'[^word]` -> go to the mark in global files
 
 ## FIND
-`f[char]` find the first occurrence of a char
+`f[char]` find the first occurrence of a char 
+`f[int][char]` find the `int` occurrence of a char 
+`F[char]` find backward the first occurrence of a char
+`F[int][char]` find backward the `int` occurrence of a char
+`;` Repeat the last find command
+`,` Repeat find Backward
+
+## Move
+`^m` go to the middle of the visual screen
