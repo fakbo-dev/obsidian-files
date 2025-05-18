@@ -1,5 +1,4 @@
-
-## 1. Try to write the important subjects from the memory not reread
+###  1. Try to write the important subjects from the memory not reread
 Focus in yourself instead of read notes or reread articles for make strongest your brain
 
 ## 2. Spread the knowledge
@@ -26,7 +25,7 @@ know something is not understand a little is memorize everything, when you use n
 
 ## 8. Your brain is like a muscle, he grows
 there are two mindset
-- the grow mind
+- the growth mind
 - the stuck mind
 Learning is and skill that you can develop, is not something what you born with. a grow mind feel struggle and hard work like and opportunity to growth  instead of the stuck mind that thinks he's not good enough and give up, when thing get hard remember `MY BRAIN IS GROWING WITH THIS TASK` you need to look back and see how better are you today than the past.
 

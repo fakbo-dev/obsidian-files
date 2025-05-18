@@ -3,8 +3,10 @@ relation: [[Neovim Commands]]
 ## Yank lines
 `ygg` yank all for the top to the bottom
 `yG` yank all for the bottom to the top
+
 ## highlight things
 `vi'` -> highlight the first occurrence  in a quote
+
 ## Select within () and {}
 
 `vi{ || vi(` -> larger
@@ -12,8 +14,10 @@ relation: [[Neovim Commands]]
 `viB` -> for {} shorter
 `cib` -> change all in () and enter in 1 mode
 `ciB` -> change all in {} and enter in insert mode
+
 ## Edit multiple lines at Once
 `C-v && I [text] ESC`
+
 ## re-highlight last highlighted
 `gv && $ $$ A [Text] ESC`
 
@@ -48,3 +52,6 @@ relation: [[Neovim Commands]]
 `'[word]` -> go to the mark in local file
 `m[^word]` -> create a global mark
 `'[^word]` -> go to the mark in global files
+
+## FIND
+`f[char]` find the first occurrence of a char

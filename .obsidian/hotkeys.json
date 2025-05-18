@@ -31,5 +31,14 @@
       ],
       "key": "3"
     }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
   ]
 }
