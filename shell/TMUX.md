@@ -14,8 +14,7 @@ tmux attach -t mysession
 # Detach from session (inside tmux)
 Ctrl-b d
 
-# Rename current session
-Ctrl-b $
+# Rename current session Ctrl-b $
 
 # Switch between sessions
 Ctrl-b ( and Ctrl-b )  # Previous/next session
