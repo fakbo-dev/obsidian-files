@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/array/01-two sum.md",
+                "file": "How to learn correctly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-two sum"
+              "title": "How to learn correctly"
+            }
+          },
+          {
+            "id": "adcffc9463ceb998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shell/TMUX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TMUX"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,14 +177,24 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "1bcbfcc7804bdabf",
+  "active": "adcffc9463ceb998",
   "lastOpenFiles": [
+    "Computer science/Data Structured & Algorithm/LinkedList.md",
+    "How to learn correctly.md",
     "Leetcode/array/removeDuplicate.md",
     "Leetcode/array/01-two sum.md",
+    "hoow.md",
+    "Computer science/Data Structured & Algorithm/Basic Data Structures.md",
+    "Computer science/javaScript.md",
+    "Computer science/Leetcode.md",
+    "Computer science/lua.md",
+    "Computer science/wezterm config.md",
+    "Computer science/Data Structured & Algorithm/Data Structured & Algorithm.md",
+    "Computer science/Untitled.md",
+    "Computer science/Computer science.md",
     "shell/TMUX.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -178,22 +203,11 @@
     "nigger.md",
     "templates/1-on-1 Meeting Notes.md",
     "templates/5-Minute Journal.md",
-    "How to learn correctly.md",
     "Leetcode/Untitled.md",
     "templates/Weekly Review.md",
     "templates/Weekly Planning.md",
     "templates/Simple Journaling Template.md",
     "templates/Second Order Thinking.md",
-    "templates/Personal Retreat Template.md",
-    "templates/People Note Template.md",
-    "templates/Memento Mori.md",
-    "templates/Meeting Notes.md",
-    "templates/Ivy Lee Method.md",
-    "templates/Eisenhower Matrix.md",
-    "templates/Decision Journal.md",
-    "templates/Daily Planning.md",
-    "templates/Daily Notes Template.md",
-    "templates/Book Notes.md",
     "templates",
     "templates/Canvas/Habit Tracking Dashboard.canvas",
     "templates/Resources/Shortcuts",

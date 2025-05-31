@@ -11,3 +11,4 @@ Queues**, and
 ## Se more Detail in 
 
 ### - [[Arrays]]
+###  [[LinkedList]]

@@ -2,6 +2,8 @@
 session: [[Computer science]]
 ### **Sessions**
 ```bash
+# Create a new session in a session (sibling)
+prefix :new [name]
 # Start new session
 tmux new -s mysession
 
