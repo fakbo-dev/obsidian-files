@@ -3,13 +3,12 @@
 **Created**: {{date}}
 **Scale**: <expected QPS/users>
 **Tags**: #system-design #architecture
+**Related** : [[]]
 
 ## Requirements
 
-1. **Functional**:
-   -
-2. **Non-Functional**:
-   -
+1. ## **Functional**:
+2. ## **Non-Functional**:
 
 ## Capacity Estimation
 

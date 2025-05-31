@@ -1,9 +1,9 @@
 # {{title}}
 
-**Domain**:: #`<CLI/Language/Tool>`  
-**Expertise**:: `⭐️ Beginner | ⚡️ Intermediate | 🚀 Advanced`  
-**Last Used**:: {{date}}  
-**Related**:: [[]]  
+**Domain**:: #`<CLI/Language/Tool>`
+**Expertise**:: `⭐️ Beginner | ⚡️ Intermediate | 🚀 Advanced`
+**Last Used**:: {{date}}
+**Related**:: [[]]
 **Tags**:: #cheatsheet #reference
 
 ```mermaid
@@ -17,24 +17,14 @@ graph TD
 
 ## Core Syntax & Operations
 
-```<language>
-# Essential commands/functions
-<base-command> <parameters>
-```
-
-### Key Parameters
-
-| Option | Description | Default |
-| ------ | ----------- | ------- |
-| `-a`   |             |         |
-| `--bb` |             |         |
+````<language>
 
 ## Productivity Shortcuts
 
 ```<language>
 # Time-saving aliases/helpers
 <shortcut-implementation>
-```
+````
 
 ## Common Patterns
 

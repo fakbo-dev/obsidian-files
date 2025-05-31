@@ -1,9 +1,9 @@
 # {{title}}
 
-**Concept Type**:: #`<programming-language/framework/theory>`  
-**Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`  
-**Date Started**:: {{date}}  
-**Last Revised**::  
+**Concept Type**:: #`<programming-language/framework/theory>`
+**Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`
+**Date Started**:: {{date}}
+**Last Revised**::
 **Related**:: [[]]
 **Tags**::
 
@@ -22,13 +22,6 @@ graph LR
 
 -
 -
-
-## Key Terminology
-
-| Term | Definition |
-| ---- | ---------- |
-|      |            |
-|      |            |
 
 ## How It Works
 

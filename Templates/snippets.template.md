@@ -1,9 +1,9 @@
 # {{title}}
 
-**Category**:: #`<CLI/API/Language>`  
-**Priority**:: `⭐️ Essential | 🚀 Power User | 🔐 Security`  
-**Last Used**:: {{date}}  
-**Related**:: [[]]  
+**Category**:: #`<CLI/API/Language>`
+**Priority**:: `⭐️ Essential | 🚀 Power User | 🔐 Security`
+**Last Used**:: {{date}}
+**Related**:: [[]]
 **Tags**:: #snippet #cheatsheet
 
 ```mermaid
