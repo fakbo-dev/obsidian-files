@@ -175,7 +175,7 @@ cw -> change the current word
 4.  (:r) FILENAME retrieves disk file FILENAME and puts it
     below the cursor position.
 
-5.                    reads the output of the dir command and
+5.                     reads the output of the dir command and
                              puts it below the cursor position.
 
 ## COPY AND PASTE TEXT

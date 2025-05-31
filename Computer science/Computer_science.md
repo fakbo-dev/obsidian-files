@@ -8,7 +8,7 @@ Computer science is the study of computers, algorithms, and computational proces
 
 ## Fundamentals
 
-- [[Data Structured & Algorithm]]
+- [[Data Structured & Algorithm|data Structured & Algorithm]]
 
 ## Languages
 

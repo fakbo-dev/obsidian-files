@@ -1,7 +1,8 @@
 ---
 id: Data Structured & Algorithm
 aliases: []
-tags: []
+tags:
+  - "[#core](#core)"
 ---
 
 resource: https://roadmap.sh/

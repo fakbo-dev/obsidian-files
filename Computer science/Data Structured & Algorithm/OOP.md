@@ -1,7 +1,11 @@
 ---
 id: OOP
-aliases: []
-tags: []
+aliases:
+  - test
+tags:
+  - code
+  - OOP
+  - tralalero_niggerla
 ---
 
 Reference to: [[Data Structured & Algorithm]], [[javaScript]]

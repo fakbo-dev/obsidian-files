@@ -8,8 +8,8 @@ relation: [[Neovim Commands]]
 
 ## Yank lines
 
-`ygg` yank all for the top to the bottom
-`yG` yank all for the bottom to the top
+`ygg` -> yank all for the top to the bottom
+`yG` -> yank all for the bottom to the top
 
 ## highlight things
 

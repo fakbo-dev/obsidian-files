@@ -1,7 +1,8 @@
 ---
 id: TMUX
-aliases:
-  - "[bash commands](shell/Bash%20commands.md)"
+aliases: [
+- code
+]
 tags: []
 ---
 
