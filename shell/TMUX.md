@@ -2,7 +2,7 @@
 id: TMUX
 aliases:
   - "[bash commands](shell/Bash%20commands.md)"
-tags:
+tags: []
 ---
 
 ## **Tmux Essentials Cheat Sheet**

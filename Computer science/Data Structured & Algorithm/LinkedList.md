@@ -1,6 +1,6 @@
 ---
 id: LinkedList
-aliases: [[control structures]]
+aliases: []
 tags: []
 ---
 
