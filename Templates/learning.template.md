@@ -11,28 +11,12 @@
 
 > _Briefly explain what it is in 1-2 sentences_
 
-```mermaid
-graph LR
-    A[Core Concept] --> B[Key Feature 1]
-    A --> C[Key Feature 2]
-    A --> D[Key Feature 3]
-```
-
 ## Why Important?
 
 -
 -
 
 ## How It Works
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant System
-    User->>System: Request
-    System->>System: Processing
-    System-->>User: Response
-```
 
 ## Core Mechanics
 

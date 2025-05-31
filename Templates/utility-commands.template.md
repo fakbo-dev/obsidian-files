@@ -6,25 +6,18 @@
 **Related**:: [[]]
 **Tags**:: #cheatsheet #reference
 
-```mermaid
-graph TD
-    U[{{title}}] --> C[Core Commands]
-    U --> S[Shortcuts & Aliases]
-    U --> T[Troubleshooting]
-    U --> E[Examples]
-    U --> A[Advanced Patterns]
-```
-
 ## Core Syntax & Operations
 
-````<language>
+```<language>
+
+```
 
 ## Productivity Shortcuts
 
 ```<language>
 # Time-saving aliases/helpers
 <shortcut-implementation>
-````
+```
 
 ## Common Patterns
 
