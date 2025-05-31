@@ -1,7 +1,13 @@
+---
+id: Bash commands
+aliases: []
+tags: []
+---
 
 ## **Bash Essentials Cheat Sheet**
 
 ### **File Management**
+
 ```bash
 # List directory contents
 ls
@@ -34,6 +40,7 @@ touch newfile.txt
 ```
 
 ### **Process Management**
+
 ```bash
 # List running processes
 ps aux
@@ -50,6 +57,7 @@ pkill -f "pattern"
 ```
 
 ### **System Information**
+
 ```bash
 # System info
 uname -a          # Kernel info
@@ -63,6 +71,7 @@ dmidecode         # BIOS/hardware info
 ```
 
 ### **Network Tools**
+
 ```bash
 # Ping test
 ping google.com
@@ -83,6 +92,7 @@ curl -O https://example.com/file
 ```
 
 ### **Package Management**
+
 ```bash
 # Debian/Ubuntu (apt)
 sudo apt update
@@ -99,6 +109,7 @@ yum search pattern
 ```
 
 ### **User & Permissions**
+
 ```bash
 # Run as superuser
 sudo command
@@ -114,6 +125,7 @@ sudo passwd username
 ```
 
 ### **Scripting & Automation**
+
 ```bash
 # Create executable script
 #!/bin/bash           # Shebang line
@@ -135,6 +147,7 @@ done
 ```
 
 ### **Useful Aliases**
+
 ```bash
 # Add to ~/.bashrc
 alias ll='ls -alF'
@@ -144,6 +157,7 @@ alias grep='grep --color=auto'
 ```
 
 ### **Powerful Pipeline Examples**
+
 ```bash
 # Find large files (>100MB)
 find . -type f -size +100M
@@ -159,6 +173,7 @@ tail -f /var/log/syslog | grep "error"
 ```
 
 ### **Environment Variables**
+
 ```bash
 export PATH="$PATH:/my/custom/path"
 printenv              # List all variables
@@ -166,6 +181,7 @@ echo $HOME            # Show specific variable
 ```
 
 ### **Profile Customization**
+
 ```bash
 nano ~/.bashrc        # Edit configuration
 source ~/.bashrc      # Reload settings

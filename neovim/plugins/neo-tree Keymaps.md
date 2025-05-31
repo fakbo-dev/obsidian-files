@@ -1,11 +1,21 @@
+---
+id: neo-tree Keymaps
+aliases: []
+tags: []
+---
+
 references: [[Neovim Commands]]
+
 ### Global Keymaps
+
 - `\` -> Reveal Neo-tree
 - `<leader>e` -> Toggle file explorer (left position)
 - `<leader>ngs` -> Open floating git status window
 
 ### Neo-tree Keymaps (When Focused)
+
 #### Navigation
+
 - `<space>` -> Toggle node expansion
 - `<2-LeftMouse>` -> Open file/directory
 - `<cr>` -> Open file/directory
@@ -13,6 +23,7 @@ references: [[Neovim Commands]]
 - `.` -> Set current directory as root
 
 #### File Operations
+
 - `a` -> Add file/folder
 - `A` -> Add directory
 - `d` -> Delete file/folder
@@ -24,6 +35,7 @@ references: [[Neovim Commands]]
 - `m` -> Move file/folder
 
 #### Window Management
+
 - `S` -> Open in horizontal split
 - `s` -> Open in vertical split
 - `t` -> Open in new tab
@@ -32,6 +44,7 @@ references: [[Neovim Commands]]
 - `q` -> Close Neo-tree window
 
 #### View Customization
+
 - `z` -> Close all nodes
 - `C` -> Close current node
 - `R` -> Refresh tree
@@ -40,6 +53,7 @@ references: [[Neovim Commands]]
 - `<c-x>` -> Clear current filter
 
 #### Git Integration
+
 - `[g` -> Previous git modified file
 - `]g` -> Next git modified file
 - `ga` -> Git add file
@@ -50,6 +64,7 @@ references: [[Neovim Commands]]
 - `gg` -> Git commit & push
 
 #### Sorting Options (Press `o` first)
+
 - `oc` -> Order by created
 - `od` -> Order by diagnostics
 - `og` -> Order by git status
@@ -59,12 +74,12 @@ references: [[Neovim Commands]]
 - `ot` -> Order by type
 
 ### Buffer Management
+
 - `bd` -> Delete buffer (when in buffers source)
 - `[g` -> Previous git modified buffer
 - `]g` -> Next git modified buffer
 
 ### Preview Mode
+
 - `P` -> Toggle floating preview
 - `<esc>` -> Close preview/float
-
-

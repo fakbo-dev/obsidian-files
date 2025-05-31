@@ -1,177 +1,199 @@
+---
+id: Github cheat sheet
+aliases: []
+tags: []
+---
+
 Here's the reformatted version with consistent syntax and organization:
 
-## SETUP & CONFIGURATION  
-### User Identity  
-```bash  
-git config --global user.name "[Firstname Lastname]"  
-# Set identifiable name for commit attribution  
+## SETUP & CONFIGURATION
 
-git config --global user.email "[valid-email]"  
-# Set email associated with commits  
+### User Identity
 
-git config --global color.ui auto  
-# Enable colored terminal output  
+```bash
+git config --global user.name "[Firstname Lastname]"
+# Set identifiable name for commit attribution
+
+git config --global user.email "[valid-email]"
+# Set email associated with commits
+
+git config --global color.ui auto
+# Enable colored terminal output
 ```
 
-### Repository Setup  
-```bash  
-git init  
-# Initialize new local repository  
+### Repository Setup
 
-git clone [url]  
-# Clone existing repository from URL  
-```
+```bash
+git init
+# Initialize new local repository
 
----
-
-## WORKFLOW FUNDAMENTALS  
-### Staging & Committing  
-```bash  
-git status  
-# Show modified/staged files  
-
-git add [file]  
-# Stage specific file  
-
-git add .  
-# Stage all changes  
-
-git reset [file]  
-# Unstage file while keeping changes  
-
-git commit -m "[Descriptive message]"  
-# Commit staged changes  
-```
-
-### Changes Inspection  
-```bash  
-git diff  
-# Show unstaged changes  
-
-git diff --staged  
-# Show staged changes  
-
-git diff branchB..branchA  
-# Compare branches  
+git clone [url]
+# Clone existing repository from URL
 ```
 
 ---
 
-## BRANCHING & MERGING  
-```bash  
-git branch  
-# List branches (* = current)  
+## WORKFLOW FUNDAMENTALS
 
-git branch [branch-name]  
-# Create new branch  
+### Staging & Committing
 
-git checkout [branch-name]  
-# Switch branches  
+```bash
+git status
+# Show modified/staged files
 
-git merge [branch-name]  
-# Merge branch into current  
+git add [file]
+# Stage specific file
 
-git rebase [branch]  
-# Reapply commits on top of another branch  
+git add .
+# Stage all changes
+
+git reset [file]
+# Unstage file while keeping changes
+
+git commit -m "[Descriptive message]"
+# Commit staged changes
+```
+
+### Changes Inspection
+
+```bash
+git diff
+# Show unstaged changes
+
+git diff --staged
+# Show staged changes
+
+git diff branchB..branchA
+# Compare branches
 ```
 
 ---
 
-## HISTORY & INSPECTION  
-```bash  
-git log  
-# Show commit history  
+## BRANCHING & MERGING
 
-git log --stat -M  
-# Show history with file stats  
+```bash
+git branch
+# List branches (* = current)
 
-git log --follow [file]  
-# Track file through renames  
+git branch [branch-name]
+# Create new branch
 
-git log branchB..branchA  
-# Show branch-exclusive commits  
+git checkout [branch-name]
+# Switch branches
 
-git show [SHA]  
-# Display specific commit details  
+git merge [branch-name]
+# Merge branch into current
+
+git rebase [branch]
+# Reapply commits on top of another branch
 ```
 
 ---
 
-## COLLABORATION  
-```bash  
-git remote add [alias] [url]  
-# Add remote repository  
+## HISTORY & INSPECTION
 
-git fetch [alias]  
-# Download remote changes  
+```bash
+git log
+# Show commit history
 
-git push [alias] [branch]  
-# Upload local commits  
+git log --stat -M
+# Show history with file stats
 
-git pull  
-# Fetch + merge remote changes (≡ fetch + merge)  
+git log --follow [file]
+# Track file through renames
+
+git log branchB..branchA
+# Show branch-exclusive commits
+
+git show [SHA]
+# Display specific commit details
 ```
 
 ---
 
-## FILE MANAGEMENT  
-```bash  
-git rm [file]  
-# Delete file and stage removal  
+## COLLABORATION
 
-git mv [old] [new]  
-# Rename/move file and stage change  
+```bash
+git remote add [alias] [url]
+# Add remote repository
+
+git fetch [alias]
+# Download remote changes
+
+git push [alias] [branch]
+# Upload local commits
+
+git pull
+# Fetch + merge remote changes (≡ fetch + merge)
 ```
 
 ---
 
-## IGNORING FILES  
-### .gitignore Patterns  
-```gitignore  
-logs/  
-*.notes  
-pattern*/  
-```
+## FILE MANAGEMENT
 
-### Global Ignore  
-```bash  
-git config --global core.excludesfile [file]  
-# Set system-wide ignore patterns  
+```bash
+git rm [file]
+# Delete file and stage removal
+
+git mv [old] [new]
+# Rename/move file and stage change
 ```
 
 ---
 
-## TEMPORARY CHANGES  
-```bash  
-git stash  
-# Save working directory changes  
+## IGNORING FILES
 
-git stash list  
-# List stashed changes  
+### .gitignore Patterns
 
-git stash pop  
-# Restore most recent stash  
+```gitignore
+logs/
+*.notes
+pattern*/
+```
 
-git stash drop  
-# Discard most recent stash  
+### Global Ignore
+
+```bash
+git config --global core.excludesfile [file]
+# Set system-wide ignore patterns
 ```
 
 ---
 
-## HISTORY REWRITING  
-```bash  
-git reset --hard [commit]  
-# Reset to specific commit (⚠️ destructive!)  
+## TEMPORARY CHANGES
 
-git commit --amend  
-# Modify last commit  
+```bash
+git stash
+# Save working directory changes
+
+git stash list
+# List stashed changes
+
+git stash pop
+# Restore most recent stash
+
+git stash drop
+# Discard most recent stash
 ```
 
-This version features:  
-1. Consistent command formatting  
-2. Logical section grouping  
-3. Clear hierarchy with --- separators  
-4. Syntax highlighting for code blocks  
-5. Concise explanations  
-6. Warning emojis for dangerous operations  
+---
+
+## HISTORY REWRITING
+
+```bash
+git reset --hard [commit]
+# Reset to specific commit (⚠️ destructive!)
+
+git commit --amend
+# Modify last commit
+```
+
+This version features:
+
+1. Consistent command formatting
+2. Logical section grouping
+3. Clear hierarchy with --- separators
+4. Syntax highlighting for code blocks
+5. Concise explanations
+6. Warning emojis for dangerous operations
 7. Standardized bash syntax formatting

@@ -1,10 +1,17 @@
+---
+id: LinkedList
+aliases: [[control structures]]
+tags: []
+---
+
 Reference: [[Data Structured & Algorithm]]
 
 Important Data Structure that allows to Insert and delete Data in a efficient way, despite arrays, linkedList store memory in the nodes,
 Entry point for stacks and qeue.
 
 Structure:
-- Node 
+
+- Node
 - Item
 - Reference for the next node
 - the first value is called Head
@@ -16,8 +23,8 @@ Structure:
 
 - Acces: Secuential
 - Data Structure: no-Contiguous
-- Inserting and Deleting Data:  Exelent
-- Memory:  located in the nodes
+- Inserting and Deleting Data: Exelent
+- Memory: located in the nodes
 
 ## Arrays
 
@@ -26,10 +33,7 @@ Structure:
 - Inserting and Deleting Data: Defficient
 - Memory: Alocated in the whole Array
 
-
 # Basic Of Linked List
-
-
 
 ### Single Linked List
 
@@ -41,6 +45,6 @@ means visit each node and make and operation inside, Like print the result or pr
 
 The structure is like this:
 
--  make a pointer name `current`  who take the 
+- make a pointer name `current` who take the
 - loop trhough the `current` node and make some operation
 - Take the next node has the new `current`

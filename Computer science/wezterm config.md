@@ -1,4 +1,11 @@
+---
+id: wezterm config
+aliases: []
+tags: []
+---
+
 see: [[pwsh Commands]]
+
 ### Key Bindings
 
 #### Pane Management

@@ -1,9 +1,17 @@
-see to 
+---
+id: pwsh Commands
+aliases: []
+tags: []
+---
+
+see to
 [[wezterm config]]
 [[Neovim Commands]]
+
 ## **PowerShell Essentials Cheat Sheet**
 
 ### **File Management**
+
 ```powershell
 # List directory contents (ls)
 Get-ChildItem
@@ -25,6 +33,7 @@ Get-ChildItem -Recurse -Filter "*.log"
 ```
 
 ### **Process Management**
+
 ```powershell
 # List running processes
 Get-Process
@@ -36,6 +45,7 @@ kill -Id 1234  # By PID
 ```
 
 ### **System Information**
+
 ```powershell
 # Get system info
 Get-ComputerInfo
@@ -49,6 +59,7 @@ Get-WmiObject Win32_PhysicalMemory
 ```
 
 ### **Network Tools**
+
 ```powershell
 # Ping test
 Test-NetConnection google.com
@@ -63,6 +74,7 @@ Get-NetAdapter
 ```
 
 ### **Package Management**
+
 ```powershell
 # Windows Package Manager (winget)
 winget search python
@@ -75,6 +87,7 @@ Install-Module -Name "PSWindowsUpdate"
 ```
 
 ### **User & Permissions**
+
 ```powershell
 # User management
 Get-LocalUser
@@ -86,6 +99,7 @@ Start-Process pwsh -Verb RunAs
 ```
 
 ### **Scripting & Automation**
+
 ```powershell
 # Get command help
 Get-Help Get-Process -Examples
@@ -102,6 +116,7 @@ Set-ExecutionPolicy RemoteSigned
 ```
 
 ### **Useful Aliases (Unix-like)**
+
 ```powershell
 cat       # Get-Content
 curl     # Invoke-WebRequest
@@ -112,6 +127,7 @@ clear    # Clear-Host
 ```
 
 ### **Powerful Pipeline Examples**
+
 ```powershell
 # Find large files (>100MB)
 Get-ChildItem -Recurse | Where-Object { $_.Length -gt 100MB }
@@ -124,12 +140,14 @@ Get-Process | Export-Csv processes.csv
 ```
 
 ### **Environment Variables**
+
 ```powershell
 $env:Path += ";C:\MyTools"  # Add to PATH
 Get-ChildItem Env:  # List all variables
 ```
 
 ### **Profile Customization**
+
 ```powershell
 notepad $PROFILE  # Edit profile
 . $PROFILE        # Reload profile

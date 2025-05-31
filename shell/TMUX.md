@@ -1,6 +1,16 @@
+---
+id: TMUX
+aliases:
+  - "[bash commands](shell/Bash%20commands.md)"
+tags:
+---
+
 ## **Tmux Essentials Cheat Sheet**
+
 session: [[Computer science]]
+
 ### **Sessions**
+
 ```bash
 # Create a new session in a session (sibling)
 prefix :new [name]
@@ -23,6 +33,7 @@ Ctrl-b ( and Ctrl-b )  # Previous/next session
 ```
 
 ### **Windows**
+
 ```bash
 # Create new window
 Ctrl-b c
@@ -43,6 +54,7 @@ Ctrl-b w
 ```
 
 ### **Panes**
+
 ```bash
 # Split pane horizontally
 Ctrl-b %
@@ -65,6 +77,7 @@ Ctrl-b Alt-arrow    # Resize by 5 cells
 ```
 
 ### **Copy Mode**
+
 ```bash
 # Enter copy mode (scroll buffer)
 Ctrl-b [
@@ -82,6 +95,7 @@ Ctrl-b ]
 ```
 
 ### **Key Bindings**
+
 ```bash
 # Command prompt (run any tmux command)
 Ctrl-b :
@@ -97,6 +111,7 @@ Ctrl-b t
 ```
 
 ### **Configuration**
+
 ```bash
 # Enable mouse support (add to ~/.tmux.conf)
 set -g mouse on
@@ -114,6 +129,7 @@ set -sg escape-time 0
 ```
 
 ### **Advanced Operations**
+
 ```bash
 # Synchronize input to all panes (toggle)
 Ctrl-b :setw synchronize-panes
@@ -129,6 +145,7 @@ tmux list-clients
 ```
 
 ### **Useful Aliases**
+
 ```bash
 # Add to ~/.bashrc for quick access
 alias t='tmux'
@@ -138,6 +155,7 @@ alias tn='tmux new -s'
 ```
 
 ### **Pro Tips**
+
 ```bash
 # Quickly switch to last-used window
 Ctrl-b l

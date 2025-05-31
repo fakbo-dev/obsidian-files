@@ -1,7 +1,15 @@
+---
+id: Snippets
+aliases: []
+tags: []
+---
+
 [For more explanation see [[Neovim Commands]].
+
 ## Keymaps Default
 
 ### Normal Mode
+
 - `<C-s>` -> Save file
 - `<leader>sn` -> Save file without auto-formatting
 - `<C-q>` -> Quit file
@@ -17,7 +25,7 @@
 - `<Tab>` -> Switch to next buffer
 - `<S-Tab>` -> Switch to previous buffer
 - `<leader>x` -> Close current buffer
-- `<leader>b` -> Create *new* buffer
+- `<leader>b` -> Create _new_ buffer
 - `<leader>v` -> Split window vertically
 - `<leader>h` -> Split window horizontally
 - `<leader>se` -> Make splits equal size
@@ -37,24 +45,29 @@
 - `]d` -> Next diagnostic
 - `<leader>d` -> Show diagnostic float
 - `<leader>q` -> Open diagnostics list
+
 ## Visual Mode
+
 - `<` -> Indent left (keep selection)
 - `>` -> Indent right (keep selection)
 - `p` -> Paste without overwriting register
 
 ## Window Management
+
 - `<leader>v` -> Vertical split
 - `<leader>h` -> Horizontal split
 - `<leader>se` -> Balance window sizes
 - `<leader>xs` -> Close current split
 
 ## Tabs
+
 - `<leader>to` -> New tab
 - `<leader>tx` -> Close tab
 - `<leader>tn` -> Next tab
 - `<leader>tp` -> Previous tab
 
 ## Diagnostic
+
 - `[d` -> Previous diagnostic message
 - `]d` -> Next diagnostic message
 - `<leader>d` -> Show floating diagnostic

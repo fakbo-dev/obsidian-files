@@ -1,7 +1,15 @@
+---
+id: LSP
+aliases: []
+tags: []
+---
+
 Source: [[Neovim Commands]]
+
 ## LSP Configuration
 
 ### Keymaps (Active in LSP buffers)
+
 - `gd` -> Goto definition (Telescope)
 - `gr` -> Goto references (Telescope)
 - `gI` -> Goto implementation (Telescope)
@@ -14,6 +22,7 @@ Source: [[Neovim Commands]]
 - `<leader>th` -> Toggle inlay hints (if supported)
 
 ### Installed LSP Servers
+
 - **tsserver** (TypeScript/JavaScript)
 - **ruff** (Python linter)
 - **pylsp** (Python) with disabled plugins:
@@ -40,9 +49,11 @@ Source: [[Neovim Commands]]
   - Completion snippet replacement
 
 ### Mason Tools
+
 - **stylua** (Lua formatter)
 
 ### Features
+
 - Automatic server installation via Mason
 - Document highlight on cursor hold
 - Inlay hints toggle support
@@ -51,6 +62,7 @@ Source: [[Neovim Commands]]
 - Code actions in normal/visual modes
 
 ### Special Configuration
+
 - **Python**:
   - Uses ruff for linting
   - Disables pylsp formatting/linting plugins
@@ -60,6 +72,7 @@ Source: [[Neovim Commands]]
   - Snippet replacement in completions
 
 ### Management
+
 - `:Mason` -> Manage installed LSP servers/tools
 - Automatic setup for configured servers
 - Fallback to default configurations when unspecified

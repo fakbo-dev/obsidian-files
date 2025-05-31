@@ -1,4 +1,10 @@
-- [ ]  Todo List
+---
+id: Project Ideas
+aliases: []
+tags: []
+---
+
+- [ ] Todo List
 - [ ] kanban board
 - [ ] Notes app
 - [ ] Calendar

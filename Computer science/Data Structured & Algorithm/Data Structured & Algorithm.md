@@ -1,9 +1,14 @@
+---
+id: Data Structured & Algorithm
+aliases: []
+tags: []
+---
+
 resource: https://roadmap.sh/
-	
+
 ## Fundamentals
 
 Programming Fundamentals are the basic concepts and principles that form the foundation of any computer programming language. These include understanding variables, which store data for processing, control structures such as loops and conditional statements that direct the flow of a program, data structures which organize and store data efficiently, and algorithms which step by step instructions to solve specific problems or perform specific tasks. Mastery of these fundamentals forms the basis for learning any specific programming language and for writing efficient, effective code.
-
 
 ### [[language Syntax]]
 
@@ -27,8 +32,8 @@ User-Defined: Functions write for the user for an specific use case
 
 Anonymous Functions: also know at lambda functions, which are not declared using the standard keyword `function`
 
-Higher-order Functions: Functions that take other functions as  arguments or return a function
+Higher-order Functions: Functions that take other functions as arguments or return a function
 
-# [[OOP]] 
+# [[OOP]]
 
 Object-oriented programming (OOP) is a programming paradigm that uses "objects" to design applications and software. In OOP, each object is an instance of a class. A class defines the properties (often known as attributes or fields) and methods (actions) that are common to all objects of a certain kind. A key principle of OOP is the ability to hide certain parts of the objects’ data from the outside, a concept known as encapsulation. Other key principles are inheritance, a way to form new classes using classes that have already been defined, and polymorphism, the concept of designing objects to share behaviors and being able to override shared behaviors with specifics.
