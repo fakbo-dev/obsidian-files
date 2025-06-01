@@ -1,20 +1,22 @@
 # LinkedLis
 
 **Concept Type**:: #DataStructure #fundamentals
-**Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`
+**Mastery Level**:: `⚙️ Working `
 **Date Started**:: 2025-05-31
 **Last Revised**::
-**Related**:: [[]]
-**Tags**:: #core #CoreProgramming
+**Related**:: [[Array|array]],[[Core|core]], [[SinglyLinkedList|singlyLinkedList]]
+**Tags**:: #core #LinkedLists
 
 ## Core Concept
 
-> Important Data Structure that allows to Insert and delete Data in a efficient way, despite arrays, linkedList store memory in the nodes,
+> is a data structure how allow you to make insertion and deletions in an efficient way.
 > Entry point for stacks and qeue.
 
 ## Why Important?
 
--
+- allows Insert and delete data in a efficient way,
+- store memory in place
+- entry point for stacks and qeue
 
 ## How It Works
 
@@ -44,10 +46,30 @@ Structure:
 
 ## Core Mechanics
 
-```<language>
+```javaScript
 // Basic syntax/pattern
-function example(param) {
-    return transformed(param);
+class Node {
+    constructor(data) {
+        // Data of the Node
+        this.data = data,
+
+        //Pointer to the next value
+        this.next = null
+    }
+}
+class LinkedList {
+    constructor(node) {
+        //head is the first value of the linkedList
+        this.head = new Node(node);
+
+        //Tail is the last value of the Linkedlist
+
+        this.tail = this.head;
+
+        // The length of our linkedList
+
+        this.length = 1;
+    }
 }
 ```
 
@@ -117,10 +139,10 @@ mindmap
 
 ## Resources
 
-1. [Official Documentation]()
+1. [Official Documentation](https://www.geeksforgeeks.org/linked-list-data-structure/)
 2. [Key Tutorial]()
 3. [Deep Dive Article]()
-4. [Practice Platform]()
+4. [Practice Platform](https://leetcode.com/)
 
 ## Concept Connections
 

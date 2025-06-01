@@ -116,6 +116,48 @@ gx      " Open URL under cursor
 gf      " Open local file under cursor
 ```
 
+```vim
+Method 1: Using Visual Block + g<C-a> (Increment)
+
+    Select your block:
+
+        Press Ctrl-v to enter visual block mode.
+
+        Select the vertical block of characters (e.g., over a, a, a, a).
+
+        Press c to delete the block and enter insert mode.
+
+        Type 0 (zero) and press <Esc>.
+        (All positions now contain 0)
+
+    Apply progressive numbers:
+
+        Reselect the exact same block with gv (or manually with Ctrl-v).
+
+        Press g<C-a> (type g then Ctrl-a).
+
+        When prompted, enter 1<Enter>.
+        (Result: 1, 2, 3, 4)
+
+Method 2: Using Expressions (More Flexible)
+
+    Select your block:
+
+        Ctrl-v to select the target vertical block.
+
+        Press c to delete it and enter insert mode.
+
+    Insert a progressive sequence:
+
+        Press Ctrl-r = to open the expression register.
+
+        Type: range(1,4)[line('.')-line("'<")]
+        (Replace 4 with your total line count)
+
+        Press <Enter> then <Esc>.
+        (Result: 1, 2, 3, 4)
+```
+
 ## Configuration Snippets
 
 ### Minimal Setup

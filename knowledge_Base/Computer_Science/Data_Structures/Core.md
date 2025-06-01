@@ -1,6 +1,6 @@
 # Core
 
-**Concept Type**:: #CoreProgramming
+**Concept Type**:: #core
 **Mastery Level**:: `🧠 Familiar `
 **Date Started**:: 2025-05-31
 **Last Revised**::
