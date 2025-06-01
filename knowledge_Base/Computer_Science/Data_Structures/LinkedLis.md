@@ -1,45 +1,46 @@
-# prueba
+# LinkedLis
 
-**Concept Type**:: #`<programming-language/framework/theory>`  
-**Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`  
-**Date Started**:: 2025-05-31  
-**Last Revised**::  
+**Concept Type**:: #DataStructure #fundamentals
+**Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`
+**Date Started**:: 2025-05-31
+**Last Revised**::
 **Related**:: [[]]
-**Tags**::#learning
+**Tags**:: #core #CoreProgramming
 
 ## Core Concept
 
-> _Briefly explain what it is in 1-2 sentences_
-
-```mermaid
-graph LR
-    A[Core Concept] --> B[Key Feature 1]
-    A --> C[Key Feature 2]
-    A --> D[Key Feature 3]
-```
+> Important Data Structure that allows to Insert and delete Data in a efficient way, despite arrays, linkedList store memory in the nodes,
+> Entry point for stacks and qeue.
 
 ## Why Important?
 
 -
--
-
-## Key Terminology
-
-| Term | Definition |
-| ---- | ---------- |
-|      |            |
-|      |            |
 
 ## How It Works
 
-```mermaid
-sequenceDiagram
-    participant User
-    participant System
-    User->>System: Request
-    System->>System: Processing
-    System-->>User: Response
-```
+Structure:
+
+- Node
+- Item
+- Reference for the next node
+- the first value is called Head
+- the last value is called tail
+
+# DIfference Between common Arrays
+
+## LinkedLists
+
+- Acces: Secuential
+- Data Structure: no-Contiguous
+- Inserting and Deleting Data: Exelent
+- Memory: located in the nodes
+
+## Arrays
+
+- Acces: Random
+- Data Structure: Contiguous
+- Inserting and Deleting Data: Defficient
+- Memory: Alocated in the whole Array
 
 ## Core Mechanics
 
@@ -88,7 +89,7 @@ function badPractice() {
 
 ```mermaid
 mindmap
-  root((prueba))
+  root((LinkedLis))
     Core Principles
       Principle 1
       Principle 2

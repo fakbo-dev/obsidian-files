@@ -1,5 +1,0 @@
----
-id: lua
-aliases: []
-tags: []
----
