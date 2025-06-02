@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge_Base/Computer_Science/Data_Structures/LinkedList/SinglyLinkedList.md",
+                "file": "Snippets/Neovim/LSP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SinglyLinkedList"
+              "title": "LSP"
             }
           }
         ],
@@ -210,6 +210,9 @@
   },
   "active": "b3ddccd211aa6833",
   "lastOpenFiles": [
+    "Snippets/Github/Github_snippets.md",
+    "knowledge_Base/Tools/Git/GitHub_Cheat_Sheet.md",
+    "knowledge_Base/Computer_Science/Data_Structures/LinkedList/SinglyLinkedList.md",
     "Snippets/Neovim/Snippets.md",
     "Snippets/Shell/Bash_Commands.md",
     "Snippets/Shell/Pwsh_commands.md",
@@ -233,7 +236,6 @@
     "knowledge_Base/Tools/Development/Neovim/Tricks.md",
     "knowledge_Base/Tools/Development/Neovim/Keymaps.md",
     "knowledge_Base/Tools/Terminal/Wezterm_Config.md",
-    "knowledge_Base/Tools/Git/GitHub_Cheat_Sheet.md",
     "knowledge_Base/Languages/Language_Comparison.md",
     "Templates/snippets.template.md",
     "Computer science/Data Structured & Algorithm/prueba.md",
@@ -244,8 +246,6 @@
     "neovim/hi.md",
     "neovim/1748715736-MDZQ.md",
     "Templates/learning.template.md",
-    "Templates/1748714162-NDCD.md",
-    "shell/1748713547-FFDT.md",
     "templates/Canvas/Habit Tracking Dashboard.canvas",
     "templates/Files/workspaces1.gif",
     "templates/Files/wordcount.png",
