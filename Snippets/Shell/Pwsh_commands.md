@@ -14,6 +14,7 @@ Get-ChildItem                   # List directory contents
 New-Item -Name "Folder" -ItemType Directory  # Create directory
 Copy-Item "source" "dest" -Force  # Copy files
 Remove-Item "file" -Force       # Delete files/folders
+Move-Item -Path 'source' -Destination 'source'
 
 # Process Management
 Get-Process                     # List running processes
