@@ -9,7 +9,9 @@
 
 ## Core Concept
 
-> _is a fundamental data Structure where the node contains field of the data and a reference for the next node._
+> _is a fundamental data Structure where the node contains field of the data_
+
+> _and a reference for the next node._
 
 > _The next reference of the last node is always null._
 
@@ -20,7 +22,8 @@
 
 ## How It Works
 
-Each node have his data and a pointer ference for the next node this allow to chain dynamic linked Togheter, Making a chain of sequence.
+Each node have his data and a pointer ference for the next
+node this allow to chain dynamic linked Togheter, Making a chain of sequence.
 
 ## Core Mechanics
 
@@ -169,7 +172,9 @@ class LinkedList {
 
 #### Insertion in Syngly LinkedList
 
-> _is one of the core options to use linkedList is the way of adding nodes to the LinkedList_
+> _is one of the core options to use linkedList is_
+
+> _the way of adding nodes to the LinkedList_
 
 > _are several way to add nodes in the LinkedLists_
 
@@ -237,8 +242,10 @@ class LinkedList {
    Return (Insertion done).
 
 3. Otherwise, traverse the list:
-   Start from the head and move to the (position - 1)ᵗʰ node (just before the desired position).
-   If the position is beyond the list length, return an error or append at the end.
+   Start from the head and move to the (position - 1)ᵗʰ
+   node (just before the desired position).
+   If the position is beyond the list length,
+   return an error or append at the end.
 
 4. Insert the new node:
    Point the new node’s next to the next node of the current position.
@@ -270,6 +277,68 @@ class LinkedList {
             length++;
             current = current.next;
         }
+    }
+```
+
+#### Deletion in Syngly LinkedList
+
+> _Deletion have some things similar to insertion is the way of removing_
+
+> _a node from the linkedList there are different ways_
+
+#### a. Deleting from the beggining of the LinkedList
+
+> _Deleting the First Node of the LinkedList (head) and_
+
+> _return the new LinkedList_
+
+#### Step by Step
+
+1. if the head is null then return null
+2. start from the head and point the current head for the next pointer
+   (new) Node
+3. return the delete Node
+
+_Example_
+
+```javaScript
+    shift() {
+        if (this.head === null) return null;
+
+        const temp = this.head;
+        this.head = this.head.next;
+        return temp;
+    }
+```
+
+#### b. Delete the last node of the singly LinkedList
+
+> _Delete the last node of the singly LinkedList and retrieve the delete node_
+
+#### Step by Step
+
+1. if the head is null then retrieve null
+2. if the pointer of the head is null return null
+3. loop through the Singly LinkedList
+4. find the last Node - 1 delete the node after the last Node - 1
+5. make the tail the Node - 1
+6. Retrieve the head
+
+_Example_
+
+```javaScript
+    pop() {
+        if (!this.head || !this.head.next) return null;
+
+        let current = this.head;
+
+        while (current.next.next !== null) {
+            current = current.next
+        }
+        console.log(current)
+        current.next = null;
+        this.tail = current;
+        return this.head;
     }
 ```
 
