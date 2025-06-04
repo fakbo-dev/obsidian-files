@@ -335,7 +335,6 @@ _Example_
         while (current.next.next !== null) {
             current = current.next
         }
-        console.log(current)
         current.next = null;
         this.tail = current;
         return this.head;
