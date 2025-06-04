@@ -341,6 +341,78 @@ _Example_
     }
 ```
 
+#### c. Delete a node for the index in a singly linkedList
+
+> _Delete a node for a give index_
+
+#### Step by Step
+
+1. check if the index is lower than the head (the first Node) if not return
+2. store the head in a variable
+3. loop through the Singly LinkedList and find the index before the given index
+4. store the next delete node in a temp variable and assign the current to
+   the temp.next node;
+5. return the delete node;
+
+_Example_
+
+```javaScript
+    deleteForIndex(index) {
+        if (!this.head) return null;
+        if (index < 0) return "Index must be greater than 0";
+        let length = 0;
+        let result;
+        let current = this.head;
+        while (current !== null) {
+
+            if (length + 1 === index) {
+                const temp = current.next;
+                current.next = temp.next;
+                result = temp;
+            }
+            length++;
+            current = current.next;
+        }
+        if (index > length) return 'Invalid index';
+        return result;
+    }
+```
+
+#### modify the data of a node with a given index and value
+
+> _Given an index and a data change the value of the node in the desire index_
+
+#### Step by Step
+
+1. get the current length of the singly LinkedList
+2. if the index is lower than 0 return
+3. if the index is greater than the length return
+4. store the head in a variable
+5. loop through the single LinkedList and find the desire node
+6. change de data of the node
+7. return the node
+
+_Example_
+
+```javaScript
+    changeData(index,data) {
+        if (index < 0) return;
+        let length = 1;
+        let current = this.head;
+        let result;
+        while (current !== null) {
+            if (length === index) {
+                current.data = data;
+                result = current;
+            }
+            length++;
+            current = current.next;
+        }
+        if (index > length) return 'Invalid Value'
+        return result;
+    }
+```
+
 ### Real-World Scenario
 
 ```<language>
