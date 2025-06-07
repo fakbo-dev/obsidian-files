@@ -26,10 +26,10 @@ is the learning is easy that means you are in auto pilot and that's not good
 ## 5. Teach it (Explain with simple words Macro -> micro)
 
 try to explain the things you are learning in simple word,
-that a children can understand if you cant that means
+that a children can understand if you cant do that means
 you don't know the subject good enough
 
-Use elaboration: try to explain with you words a subject
+Use elaboration: try to explain with you simple words a subject
 
 ## 6. Use all you sense to learn
 

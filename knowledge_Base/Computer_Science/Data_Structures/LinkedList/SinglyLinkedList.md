@@ -380,7 +380,7 @@ _Example_
 
 #### modify the data of a node with a given index and value
 
-> _Given an index and a data change the value of the node in the desire index_
+> _Given an index and a data, change the value of the node in the desire index_
 
 #### Step by Step
 
@@ -413,6 +413,22 @@ _Example_
     }
 ```
 
+#### Reversing a Singly Linked List
+
+> _means reverse the pointers such that the head become the tail and the tail_
+
+> _become the head_
+
+#### Step by Step
+
+1. initialize 3 variables (prev,current,next)
+2. loop through the Singly Linked List until (current !== null) and:
+   - set next = current.next
+   - set current.next = prev
+   - set prev = current
+   - set current = next;
+3. retrieve prev is the new head;
+
 ### Real-World Scenario
 
 ```<language>
@@ -429,21 +445,6 @@ function optimizedSolution(data) {
 function badPractice() {
     🚫 // Why this is wrong
 }
-```
-
-🛑 **Why to Avoid:**
-
-## Mental Models
-
-```mermaid
-mindmap
-  root((SinglyLinkedList))
-    Core Principles
-      Principle 1
-      Principle 2
-    Application Patterns
-      Pattern A
-      Pattern B
 ```
 
 ## Practice Exercises
@@ -470,15 +471,12 @@ mindmap
 
 ## Concept Connections
 
-```mermaid
-graph TD
-    Current{{Current Concept}} --> Prerequisite(Prerequisite Knowledge)
-    Current --> Similar(Similar Concepts)
-    Current --> Advanced(Advanced Topics)
-```
-
 ## Recall Triggers
 
 - Mnemonic:
 - Visualization:
 - Analogy:
+
+```
+
+```
