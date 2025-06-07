@@ -6,16 +6,6 @@
 **Related**:: [[Bash_Commands]]
 **Tags**:: #cheatsheet #reference #git #github
 
-```mermaid
-graph TD
-    G[Git Essentials] --> S[Setup]
-    G --> W[Workflow]
-    G --> B[Branching]
-    G --> C[Collaboration]
-    G --> H[History]
-    G --> T[Tools]
-```
-
 ## Core Syntax & Operations
 
 ```bash
