@@ -52,6 +52,88 @@ class DoublyLinkedList {
 
 #### adding data at the end of a DoublyLinkedList
 
+> _method to add values at the end of the doubleLinkedList_
+
+#### Step by Step
+
+1. first Create a newNode in order to adding to the DoublyLinkedList
+2. check if the doubleLinkedList LinkedList is empty if it:
+   - add the new node as the head of the linkedList
+3. create a variable called lastNode and store the current head.
+4. traversal the linkedList in order to find the lastNode (tail).
+5. add the pointer next of the lastNode to the newNode and the prev Pointer
+   of newNode to the tail
+6. return the newNode;
+
+_Example_
+
+```javaScript
+    push(data) {
+        const newNode = new Node(data);
+        let lastNode = this.head;
+        if (this.head === null) {
+            this.head = newNode;
+            return newNode;
+        }
+        while (lastNode.next !== null) {
+            lastNode = lastNode.next;
+        }
+        lastNode.next = newNode;
+        newNode.prev = lastNode;
+        return newNode;
+    }
+```
+
+#### traversal the doubleLinkedList
+
+> _go throuhg the DoublyLinkedList and retrieve the data_
+
+#### Step by Step
+
+1. create a variable and store the first node
+2. iterate through the DoublyLinkedList until we reach the last node.
+
+_Example_
+
+```javaScript
+    traversal() {
+        let current = this.head
+        const arr = [];
+        while (current !== null) {
+            arr.push(current.data);
+            current = current.next;
+        }
+        return arr;
+    }
+```
+
+#### Reverse traversal the doubleLinkedList
+
+> _go throuhg the DoublyLinkedList and retrieve the data using the prev_
+
+#### Step by Step
+
+1. create a variable and store the first node
+2. iterate through the DoublyLinkedList until we reach the last node.
+3. from the last node iterate one more time until the prev pointer === null
+
+_Example_
+
+```javaScript
+    reverseTraversal() {
+        let current = this.head;
+        const arr = [];
+        while (current.next !== null) {
+            current = current.next;
+        }
+        while (current !== null) {
+            arr.push(current.data);
+            current = current.prev;
+        }
+        return arr;
+    }
+```
+
 ### Key Parameters
 
 - `param`:
