@@ -93,7 +93,7 @@ mindmap
 
 ## Resources
 
-1. [Official Documentation]()
+1. [Official Documentation](https://www.geeksforgeeks.org/dsa/queue-data-structure/)
 2. [Key Tutorial]()
 3. [Deep Dive Article]()
 4. [Practice Platform]()
