@@ -9,7 +9,7 @@ date_range: 2025-06-23
 - [ ] make some leetcode
 - [ ] finish the work project
 - [ ] try to read aat least 50 page of the book im currently reading
-- [ ] fix the github contributions error
+- [x] fix the github contributions error
 
 ## Tasks
 
