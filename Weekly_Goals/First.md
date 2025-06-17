@@ -15,7 +15,7 @@ date_range: 2025-06-23
 ## Tasks
 
 - [ ] study at least 4 hour
-- [ ] do exercise
+- [ ] do exercise the whole week
 
 ## Reflection
 
