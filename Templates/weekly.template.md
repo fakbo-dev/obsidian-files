@@ -15,5 +15,8 @@ date_range:
 
 ## Reflection
 
-- [ ] What went well this week?
-- [ ] What could be improved?
+- [ ] try to not get distracted
+- [ ] dont beg for that girl
+- [ ] just start doing something
+- [ ] try to always take notes from the memory not only for re-read the article
+- [ ] i need a rubber duck

@@ -21,3 +21,6 @@ date_range: 2025-06-23
 
 - [ ] try to not get distracted
 - [ ] dont beg for that girl
+- [ ] just start doing something
+- [ ] try to always take notes from the memory not only for re-read the article
+- [ ] i need a rubber duck
