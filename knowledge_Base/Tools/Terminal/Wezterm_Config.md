@@ -6,6 +6,13 @@
 **Related**:: [[Bash_Commands|bash_Commands]]
 **Tags**:: #cheatsheet #reference #wezterm #terminal #CLI
 
+### useful thing
+
+```lua
+ALT + ENTER === ZENMODE
+
+```
+
 ### Core Syntax & Operations
 
 ```lua
