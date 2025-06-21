@@ -9,12 +9,22 @@
 
 ## Core Concept
 
-> _ is a fundamental data structure for organize and access data_
+> _is a data structure that is have a rear (the oldest value) and the front (the newest Value)_
+
+> _is held and access is rectricted to one end_
+
+> _Elements are added in the rear (enqueued) and and removed from the front (dequeued)_
+
+> _This make it a First-in First-Out Data Structure (FIFO)_
 
 ## Why Important?
 
-- use FIFO (First in First Out) for manage the data
-- efficient way to get values in o(1) time complex
+### Useful for
+
+- priting jobs
+- handling request in a web server
+- scheduling task in system
+- can be implemented with array and linkedList
 
 ## How It Works
 
@@ -134,97 +144,9 @@ myQueue.enqueue(3);
 console.log(myQueue);
 ```
 
-## Core Mechanics
-
-```<language>
-// Basic syntax/pattern
-function example(param) {
-    return transformed(param);
-}
-```
-
-### Key Parameters
-
-- `param`:
-- `return`:
-
-## Practical Examples
-
-### Basic Usage
-
-```<language>
-// Minimal implementation
-const result = basicUsage(input);
-```
-
-### Real-World Scenario
-
-```<language>
-// Production-ready pattern
-function optimizedSolution(data) {
-    // Explain optimizations
-}
-```
-
-## Common Pitfalls
-
-```<language>
-// Anti-pattern example
-function badPractice() {
-    🚫 // Why this is wrong
-}
-```
-
-🛑 **Why to Avoid:**
-
-## Mental Models
-
-```mermaid
-mindmap
-  root((Queues))
-    Core Principles
-      Principle 1
-      Principle 2
-    Application Patterns
-      Pattern A
-      Pattern B
-```
-
-## Practice Exercises
-
-1. **Basic**:
-   ```<language>
-   // Starter code
-   function exercise1(input) {
-       // Implement solution
-   }
-   ```
-2. **Intermediate**:
-   ```<language>
-   // Challenge scaffold
-   function exercise2(data) {
-       // Optimize this
-   }
-   ```
-
 ## Resources
 
 1. [Official Documentation](https://www.geeksforgeeks.org/dsa/queue-data-structure/)
 2. [Key Tutorial]()
 3. [Deep Dive Article]()
 4. [Practice Platform]()
-
-## Concept Connections
-
-```mermaid
-graph TD
-    Current{{Current Concept}} --> Prerequisite(Prerequisite Knowledge)
-    Current --> Similar(Similar Concepts)
-    Current --> Advanced(Advanced Topics)
-```
-
-## Recall Triggers
-
-- Mnemonic:
-- Visualization:
-- Analogy:
