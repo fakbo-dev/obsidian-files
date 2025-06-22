@@ -9,21 +9,21 @@ tags: [#core #fundamentals]
 Focus in yourself instead of read notes or reread
 articles for make strongest your brain
 
-## 2. Spread the knowledge
+### 2. Spread the knowledge
 
 Try to Distribute the sessions of learning.
 Not trying to learn all in large sessions
 
-## 3. mixed to domain
+### 3. mixed to domain
 
 Try to mix problems together in order to force you to use the things you learn
 
-## 4. be one with the hard tasks
+### 4. be one with the hard tasks
 
 you need to struggle in order to get better in the field you want to develop,
 is the learning is easy that means you are in auto pilot and that's not good
 
-## 5. Teach it (Explain with simple words Macro -> micro)
+### 5. Teach it (Explain with simple words Macro -> micro)
 
 try to explain the things you are learning in simple word,
 that a children can understand if you cant do that means
@@ -31,7 +31,7 @@ you don't know the subject good enough
 
 Use elaboration: try to explain with you simple words a subject
 
-## 6. Use all you sense to learn
+### 6. Use all you sense to learn
 
 Some People say they learn more with only vision or reading but that's not true,
 you can learn a lot when you get align with the theme you are learning,
@@ -40,7 +40,7 @@ a programmer need to see and read files in order to get better in the field,
 if he just watch videos and never code or only read and never code
 he will never learn how to program anything.
 
-## 7. the illusion of know
+### 7. the illusion of know
 
 know something is not understand a little, is memorize everything,
 when you use notes (like this) or read and highlight things your brain have
@@ -54,7 +54,7 @@ the subject with only memory and you will see if you really understand or not.
 when you get stuck is a good thing because your brain need to work harder
 in order to remember things and you can determinate your weakness
 
-## 8. Your brain is like a muscle, he grows
+### 8. Your brain is like a muscle, he grows
 
 there are two mindset
 
@@ -67,7 +67,7 @@ there are two mindset
   when thing get hard remember `MY BRAIN IS GROWING WITH THIS TASK` you need
   to look back and see how better are you today than the past.
 
-## 9. Mistake in purpose
+### 9. Mistake in purpose
 
 Try to do Mistake is good for your brain because when you fail in something
 you brain create a hook that can be useful when you try to remember the
@@ -78,13 +78,13 @@ and try to think, "how much i know about this",
 well that's good because
 you are gonna learn better.
 
-## 10. try to learn the idea, not just only remember things
+### 10. try to learn the idea, not just only remember things
 
 you can now the structured or how to use a phone,
 but you cant make one because you don't understand how is make this is the
 difference between know how things work and just memorize things.
 
-## 11. Learning that last is build, not born
+### 11. Learning that last is build, not born
 
 Learn is a skill not a privilege, in order to get good at learning you need to
 use method efficiently and intelligent,
@@ -92,7 +92,7 @@ is not working hard is working with intelligent,
 the people who learn more is the people who develop good habits like
 questioning using learn spacing and mixes being discipline and constant.
 
-## 12. forget the motivation, use the system
+### 12. forget the motivation, use the system
 
 the feelings like motivation and willpower,
 can be low or high depending the day,
@@ -102,7 +102,7 @@ the same hour every day,
 having hour of checking wondering and using the tools we
 learn writing this article.
 
-## 13. Use time to reflect
+### 13. Use time to reflect
 
 when you finish a session or a work day, take some time to reflect
 in what you can do better or how thing get like that,
@@ -110,7 +110,7 @@ that make you learn for your behavior and get better for the next thing
 or session you are working it learn for your mistakes or improve your methods
 and things DON'T GET STUCK IN LIFE.
 
-## 14. take it easy
+### 14. take it easy
 
 learning is a marathon not a race, take long time to learn things don't try to
 rush it take your time,
@@ -121,7 +121,7 @@ good in life make a step back and think.
 when you get reflect you can go forward with a fresh mind,
 keep it up the good work.
 
-## 15. don't have fear for failure
+### 15. don't have fear for failure
 
 in life your gonna get punch, your gonna fall so much times,
 but you need to get back every time. the loser, the low elos, the average man,
