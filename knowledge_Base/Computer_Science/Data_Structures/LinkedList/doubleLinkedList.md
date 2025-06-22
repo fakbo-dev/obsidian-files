@@ -297,7 +297,7 @@ class DoublyLinkedList {
     }
 }
 
-adding data at the end of a DoublyLinkedList (push)
+    adding data at the end of a DoublyLinkedList (push)
 
     Method to add values at the end of the DoublyLinkedList.
 
