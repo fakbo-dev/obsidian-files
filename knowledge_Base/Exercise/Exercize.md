@@ -1,10 +1,3 @@
-¡Claro! Aquí tienes la **rutina final completa de 5 días**,
-optimizada para hipertrofia y fuerza, usando **tu barra alta,
-bloques, hierros y elementos caseros**. Incluye **core estratégico**,
-detalles de uso de materiales y progresiones.
-
----
-
 ### **Equipo Utilizado & Adaptaciones**
 
 | **Material**          | **Función**                                             |

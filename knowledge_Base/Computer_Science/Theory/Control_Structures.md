@@ -10,7 +10,9 @@
 ````markdown
 ## Core Concept
 
-> Programming constructs that dictate program execution flow through sequential processing, conditional branching, and repetitive loops.
+> Programming constructs that dictate program execution flow through sequential processing,
+
+> conditional branching, and repetitive loops.
 
 ## Why Important?
 
