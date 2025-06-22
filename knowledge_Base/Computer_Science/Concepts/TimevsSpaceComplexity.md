@@ -5,7 +5,7 @@
 **Date Started**:: 2025-06-22
 **Last Revised**::
 **Related**:: [[Algorithmic_Complexity]]
-**Tags**:: #core
+**Tags**::
 
 ## Core Concept
 

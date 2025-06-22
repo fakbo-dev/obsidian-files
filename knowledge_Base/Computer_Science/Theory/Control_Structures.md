@@ -5,7 +5,7 @@
 **Date Started**:: 2025-05-31
 **Last Revised**::
 **Related**:: [[Core|core]]
-**Tags**:: #core #logic-flow #fundamentals
+**Tags**:: #logic-flow #fundamentals
 
 ````markdown
 ## Core Concept

@@ -5,7 +5,7 @@
 **Date Started**:: 2025-06-15
 **Last Revised**::
 **Related**:: [[Core|core]], [[Array|array]], [[LinkedList|linkedLis]]
-**Tags**::#Queues #array #core
+**Tags**::#Queues #array
 
 ## Core Concept
 

@@ -5,7 +5,7 @@
 **Date Started**:: 2025-06-07
 **Last Revised**:: 2025-06-09
 **Related**:: [[LinkedList|LinkedLis]], [[Array]], [[SinglyLinkedList|singlyLinkedList]]
-**Tags**:: #core #fundamentals #LinkedLists #doubleLinkedList
+**Tags**:: #fundamentals #LinkedLists #doubleLinkedList
 
 ## Core Concept
 

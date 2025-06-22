@@ -5,7 +5,7 @@
 **Date Started**:: 2025-05-31
 **Last Revised**::
 **Related**:: [[Control_Structures|control_Structures]]
-**Tags**:: #core #DataStructure #syntax
+**Tags**:: #fundamentals #DataStructure #syntax
 
 ## Core Concept
 

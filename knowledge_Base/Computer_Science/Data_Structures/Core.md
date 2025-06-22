@@ -1,11 +1,11 @@
 # Core
 
-**Concept Type**:: #core
+**Concept Type**::#fundamentals
 **Mastery Level**:: `🧠 Familiar `
 **Date Started**:: 2025-05-31
 **Last Revised**::
 **Related**:: [[Data Structures]]
-**Tags**:: #fundamentals #syntax #control-flow #functions #oop
+**Tags**:: #syntax #control-flow #functions #oop
 
 ## Core Concept
 

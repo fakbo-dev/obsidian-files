@@ -1,7 +1,7 @@
 ---
 id: How to learn correctly
-aliases: [#howtoLearn]
-tags: #core #fundamentals
+aliases: #howtoLearn
+tags: #fundamentals
 ---
 
 ### 1. Try to write the important subjects from the memory not reread

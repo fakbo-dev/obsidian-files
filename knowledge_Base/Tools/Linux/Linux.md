@@ -5,7 +5,7 @@
 **Date Started**:: 2025-06-15
 **Last Revised**::
 **Related**:: [[]]
-**Tags**::#Linux #core
+**Tags**::#Linux #fundamentals
 
 ## Core Concept
 
