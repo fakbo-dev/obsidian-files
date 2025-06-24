@@ -1,11 +1,11 @@
-# {{title}}
+# Selection
 
-**Concept Type**:: #`<programming-language/framework/theory>`
-**Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`
-**Date Started**:: {{date}}
+**Concept Type**:: #javaScript
+**Mastery Level**:: `🧠 Familiar`
+**Date Started**:: 2025-06-23
 **Last Revised**::
-**Related**:: [[]]
-**Tags**::
+**Related**:: [[Algorithmic_Complexity]]
+**Tags**:: #fundamentals #SortingAlgorithms #algorithm
 
 ## Core Concept
 
