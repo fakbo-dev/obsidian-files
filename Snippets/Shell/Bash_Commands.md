@@ -6,46 +6,85 @@
 **Related**:: [[Computer science|computer science]]
 **Tags**:: #cheatsheet #reference #bash #shell
 
-```mermaid
-graph TD
-    U[Bash_Commands] --> C[Core Commands]
-    U --> S[Shortcuts & Aliases]
-    U --> T[Troubleshooting]
-    U --> E[Examples]
-    U --> A[Advanced Patterns]
-```
-
 ## Core Syntax & Operations
 
 ```bash
+### Print
+
+echo # print out the text arguments to the display
+
+### Print Working Directory (pwd)
+
+pwd # Wich Directory are you in
+
+### change Directory
+cd .  # Change in the current directory
+cd .. # Change in the parent directory
+cd ~  # Change from the root directory
+cd -  # Change from the previous directory
+
 ### List directory contents
 ls
 ls -l      # Detailed list
 ls -a      # Show hidden files
 ls -lh     # Human-readable sizes
 
-# Create directory
-mkdir dirname
-mkdir -p parent/child  # Create nested directories
+# Create file
+touch newfile.txt # Create a file name newfile.txt
+
+# file
+file sometext.txt # tell you the description for the file content
+
+# Process text
+cat file.txt | sort | uniq -c | sort -nr #Read a file without is flags for short ouput
+less file.txt # read a file with large output
 
 # Copy files
 cp file.txt destination/
 cp -r dir/ destination/  # Copy directories recursively
+cp -i file.txt destination/ #for not overwrite a directory with the same name
+
+# wildcars
+
+# * the wildcard of wildcards, it's used to represent all single characters or any string.
+# ? used to represent one character
+# [] used to represent any character within the brackets
 
 # Move/rename files
-mv old.txt new.txt
 
-# Delete files/folders
+mv old.txt new.txt #move or rename a file or folder
+mv -i directory1 directory2 #move and not overwrite the different elements
+mv -b directory1 directory2 #for make backup of the file you are replacing
+
+# Create directory
+mkdir dirname
+mkdir -p parent/child  # Create nested directories
+
+# Delete files/folders there's no trash can
 rm file.txt
 rm -r dirname  # Delete directory recursively
 rm -rf dirname # Force delete (caution!)
+rm -i dirname/file.extend #give you a prompt for whetever you are deleting
+rmdir directory #remove a directory
 
 # Find files
-find . -name "*.log"  # Search by name
+find directory -name  file.extend # Search by name
+find /home -type d -name MyFolder #for search for type
 grep -r "pattern" /path  # Search content in files
 
-# Create file
-touch newfile.txt
+#help
+
+help command #show the wildcard/flags for the command
+
+#manual
+
+man command #show documentation about the commmand
+
+#what command does
+whatis command #show what command does
+#alias
+alias foobar='ls -la'
+unalias foobar
 ```
 
 ### **Process Management**

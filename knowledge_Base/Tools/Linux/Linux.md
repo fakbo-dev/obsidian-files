@@ -4,7 +4,7 @@
 **Mastery Level**:: `🧠 Familiar | ⚙️ Working | 🚀 Proficient | 🔬 Expert`
 **Date Started**:: 2025-06-15
 **Last Revised**::
-**Related**:: [[]]
+**Related**:: [[Bash_Commands]]
 **Tags**::#Linux #fundamentals
 
 ## Core Concept
