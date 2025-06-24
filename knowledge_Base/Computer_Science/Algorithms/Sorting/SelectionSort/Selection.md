@@ -11,11 +11,6 @@
 
 > _Sorting algorithm who divide the arr of elements in two sorted and unsorted_
 
-## Why Important?
-
--
--
-
 ## How It Works
 
 1. initially the sorted part is empty and the unsorted contains all the elements
