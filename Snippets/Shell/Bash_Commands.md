@@ -80,6 +80,12 @@ help command #show the wildcard/flags for the command
 
 man command #show documentation about the commmand
 
+#copy a comand wihout the mouse in the shell
+command | xclip -selection clipboar
+
+command | xclip #for copy in de xclip clipboar
+xclip -o        #retrieve the data
+
 #what command does
 whatis command #show what command does
 #alias
