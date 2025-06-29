@@ -4,7 +4,7 @@
 **Mastery Level**:: `🧠 Familiar`
 **Date Started**:: 2025-06-23
 **Last Revised**::
-**Related**:: [[Algorithmic_Complexity]]
+**Related**:: [[Algorithmic_Complexity]], [[SortingAlgorithms]]
 **Tags**:: #fundamentals #SortingAlgorithms #algorithm
 
 ## Core Concept
