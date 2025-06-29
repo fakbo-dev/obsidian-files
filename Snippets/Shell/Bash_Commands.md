@@ -373,3 +373,5 @@ trap "echo 'Error at line $LINENO'" ERR
 1. [Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
 2. [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
 3. [Bash Hackers Wiki](https://wiki.bash-hackers.org/)
+4. [bash basic practice](https://linuxjourney.com/)
+5. [bash medium practice](https://overthewire.org/wargames/bandit/)
