@@ -220,7 +220,6 @@ gh repo clone user/repo # Clone via CLI
 
 ```markdown
 1. **Fork Workflow**:
-
    - Fork repository
    - Clone your fork
    - Create feature branch
@@ -228,7 +227,6 @@ gh repo clone user/repo # Clone via CLI
    - Open PR to upstream
 
 2. **Feature Flags**:
-
    - Use branch-per-feature
    - Merge via PR
    - Cleanup after merge
