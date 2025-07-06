@@ -29,7 +29,7 @@ function example(param) {
 
 ## Resources
 
-1. [Official Documentation]()
+1. [Official Documentation](https://www.geeksforgeeks.org/javascript/javascript-program-for-quick-sort/)
 2. [Key Tutorial]()
 3. [Deep Dive Article]()
 4. [Practice Platform]()
