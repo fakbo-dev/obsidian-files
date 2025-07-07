@@ -1,5 +1,5 @@
 ---
-day_number: {{date}}
+day: {{date}}
 ---
 
 ## Goals
