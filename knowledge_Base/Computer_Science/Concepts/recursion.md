@@ -9,12 +9,22 @@
 
 ## Core Concept
 
-> _Briefly explain what it is in 1-2 sentences_
+> _when a function call itself directly or indirectly is called recursion_
+
+> _and the corresponding function is called recursive function_
 
 ## Why Important?
 
--
--
+1. Define a base case: Identify the simplest (or base) case for which the solution is know
+   or trivial.
+
+2. Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem
+   down into smaller versions of itself, and call the function recursively to solve each subproblems
+
+3. Ensure the recursion terminates: Make sure that the recursive function eventually reaches the
+   base case, and does not enter in a infinite loop
+
+4. Combine the solution: Combine the solution of the subproblems to solve the original problem.
 
 ## How It Works
 
