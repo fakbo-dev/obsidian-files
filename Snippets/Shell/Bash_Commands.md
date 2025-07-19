@@ -93,7 +93,9 @@ alias foobar='ls -la'
 unalias foobar
 ```
 
-### **Process Management**
+### i/O STREAMS (stdout)
+
+### Process Management
 
 ```bash
 # List running processes
