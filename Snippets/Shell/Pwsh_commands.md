@@ -16,6 +16,8 @@ Copy-Item "source" "dest" -Force  # Copy files
 Remove-Item "file" -Force       # Delete files/folders
 Move-Item -Path 'source' -Destination 'source'
 
+# Rename Files/folders
+Rename-Item -Path "OldFolderName" -NewName "NewFolderName"
 # Process Management
 Get-Process                     # List running processes
 Stop-Process -Name "process" -Force  # Kill process
