@@ -274,3 +274,9 @@ $json.Settings | ConvertTo-Json | Set-Content updated.json
 # String manipulation
 "HELLO".ToLower() -replace "l", "x"  # -> "hexxo"
 ```
+
+### list avaliable Drivers
+
+```powershell
+GET-PSDrive
+```
