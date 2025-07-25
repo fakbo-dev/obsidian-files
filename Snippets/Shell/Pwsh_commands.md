@@ -279,4 +279,7 @@ $json.Settings | ConvertTo-Json | Set-Content updated.json
 
 ```powershell
 GET-PSDrive
+Get-Volume -DriveLetter x
+Get-Disk
+Get-Partition -DriveLetter x
 ```
