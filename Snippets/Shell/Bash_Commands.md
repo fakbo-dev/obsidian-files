@@ -93,7 +93,34 @@ alias foobar='ls -la'
 unalias foobar
 ```
 
-### i/O STREAMS (stdout)
+### i/O STREAMS (stdin/stdout)
+
+```bash
+# stdout
+
+> # redirection operator (can add a flag for not overwrite a file -> default behavior)
+>># redirection operator for append to the end of the file
+
+#stdin
+< #redirection operator for input.
+<< #redirection operator for input with a flag for append at the end
+```
+
+### Standar Error (stderr)
+
+```bash
+#file decriptors
+0
+1
+2
+```
+
+### pipe and tee
+
+```bash
+ | #Pipe operator allow to see the stdout of a command and make it the stdin for another process
+
+```
 
 ### Process Management
 
