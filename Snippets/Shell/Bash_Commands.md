@@ -98,10 +98,11 @@ unalias foobar
 ```bash
 # stdout
 
-> # redirection operator (can add a flag for not overwrite a file -> default behavior)
+> # redirection operator (overwrite a file -> default behavior)
 >># redirection operator for append to the end of the file
 
 #stdin
+
 < #redirection operator for input.
 << #redirection operator for input with a flag for append at the end
 ```
@@ -110,15 +111,71 @@ unalias foobar
 
 ```bash
 #file decriptors
-0
-1
-2
+0 #-> stdin
+1 #-> stdout
+2 #-> stderr
+
+#Example redirection to stderr
+ls /fake/directory 2> sometext.txt
+
+#Example redirection to stdout and stderr
+
+ls /fake/directory > sometext.txt 2>&1
+
+#Example redirection to stdout and stderr (short way)
+
+ls /fake/directory &> sometext.txt
+
+#redirect output to speacial file who discard any outputs
+
+ls /fake/directory 2> /dev/null
 ```
 
 ### pipe and tee
 
 ```bash
  | #Pipe operator allow to see the stdout of a command and make it the stdin for another process
+
+```
+
+### ENV (Environment)
+
+```bash
+env #see all you env data
+$PATH # Important Variable
+```
+
+### cut (Extract Content)
+
+```bash
+cut #print selected parts of lines from each FILE to standard output.
+
+#Example
+$ echo 'The quick brown; fox jumps over the lazy  dog' > sample.txt
+$ cut -c 5-10 sample.txt
+$ cut -c 5- sample.txt
+$ cut -c -5 sample.txt
+```
+
+### paste
+
+```bash
+
+paste #Write Line consisting of the sequentially corresponding lines from each FILE,
+      #separted by TABs, to standard output
+```
+
+### head
+
+```bash
+head #print the first 10 line of a FILE in the standard output
+
+```
+
+### tailj
+
+```bash
+last #print the last 10 line of a FILE in the standard output
 
 ```
 
