@@ -157,7 +157,7 @@ $ cut -c 5- sample.txt
 $ cut -c -5 sample.txt
 ```
 
-### paste
+### paste (merge line of files)
 
 ```bash
 
@@ -165,18 +165,65 @@ paste #Write Line consisting of the sequentially corresponding lines from each F
       #separted by TABs, to standard output
 ```
 
-### head
+### head (print first)
 
 ```bash
 head #print the first 10 line of a FILE in the standard output
 
 ```
 
-### tailj
+### tail (print)
 
 ```bash
 last #print the last 10 line of a FILE in the standard output
 
+```
+
+### expand and unexpand
+
+```bash
+expand #transform tabs in single spaces
+unexpand #transform single spaces in a group of TABS
+```
+
+### join and split
+
+```bash
+join file1.txt file2txt #join lines of two files with a field (first line for default)
+
+split file1.txt #split a file into pieces
+```
+
+### sort
+
+```bash
+
+sort file.txt #sort the content of the value in stdout
+```
+
+### translate
+
+```bash
+tr #Translate, squeeze, and/or delete characters from standard input,
+   # writing to standard output.
+   # STRING1 and STRING2 specify arrays of
+   # characters ARRAY1 and ARRAY2 that control the action.
+```
+
+### uniq (Unique)
+
+```bash
+
+uniq file.txt # Filter adjacent matching lines from INPUT (or standard input),
+              # writing to OUTPUT (or standard output)
+
+```
+
+### grep
+
+```bash
+
+grep fox sample #allow search files for characters that match certain pattern
 ```
 
 ### Process Management
